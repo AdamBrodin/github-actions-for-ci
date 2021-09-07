@@ -1,5 +1,3 @@
 name: Adam's approval workflow
 on:
   pull_request_review:
-    branches: [main, team-workflow]
-    types: [created, edited, dismissed]
