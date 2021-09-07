@@ -1,2 +1,9 @@
-name: Team awesome's approval workflow
-on: pull_request_review
+name: Node.js CI
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+  pull_request_review:
+    branches: [main]
