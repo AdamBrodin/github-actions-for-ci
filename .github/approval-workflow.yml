@@ -1,3 +1,4 @@
 name: Adam's approval workflow
 on:
   pull_request_review:
+    types: [edited, dismissed]
